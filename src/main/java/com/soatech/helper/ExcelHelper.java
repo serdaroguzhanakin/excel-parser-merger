@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 public class ExcelHelper {
-    private static List<String> restrictedWords = Arrays.asList("gamb", "bet", "casino", "cash");
+    private static List<String> restrictedWords = Arrays.asList();
     private static String MAIL_SUFFIX = "@hotmail.com";
 
     public static boolean isRowListEmpty(ArrayList<Row> rowList) {
